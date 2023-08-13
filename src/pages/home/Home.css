@@ -1,0 +1,56 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 99vh;
+    background-image: url('https://img.freepik.com/fotos-gratis/tinta-azul-fosca-em-branco_53876-104008.jpg?w=2000&t=st=1691502286~exp=1691502886~hmac=db9472b53c7b451aef68629468ebe50ec41eab372ce7a9b536eb21ac712c4251');
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    overflow: scroll;
+    white-space: nowrap;
+}
+
+.chat-container {
+    margin: 2vh;
+    border-radius: 2vh;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    min-height: 32rem;
+
+}
+
+.input-message {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    border-radius: 2vh;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    background-color: darkslategray;
+}
+
+.logo-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    padding: 1vh;
+}
+
+.input {
+    width: 50rem;
+    margin: 1rem;
+}
+
+.title-chat {
+    padding: 20px;
+}

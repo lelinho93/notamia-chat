@@ -1,0 +1,51 @@
+.container {
+    background-image: url('https://img.freepik.com/fotos-gratis/esfera-azul-brilhante-segurada-por-mao-humana-gerada-por-ia_188544-41033.jpg?w=2000&t=st=1691427371~exp=1691427971~hmac=9d2318ccaba586167e20dd24232b48e2cb0df2bd971bebb3e71b4506b644e59e');
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.title {
+    margin-top: 0px;
+    padding: 5vw;
+    font-family: 'Courier New', Courier, monospace;
+    color: white
+}
+
+.form {
+    padding: 2vw;
+}
+
+.label {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#name {
+    width: 12vw;
+    height: 3vh;
+    border-radius: 5px;
+}
+
+#email {
+    width: 12vw;
+    height: 3vh;
+    border-radius: 5px;
+}
+
+#password {
+    width: 12vw;
+    height: 3vh;
+    border-radius: 5px;
+}
+
+.input-wrapper {
+    padding: 1vw;
+}
+
+.register-text {
+    color: white;
+}
+
+.link {
+    color: aquamarine
+}
